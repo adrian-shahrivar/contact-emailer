@@ -59,7 +59,7 @@ app.post('/send', function (req, res) {
             return console.log(err);
         } else {
             console.log(JSON.stringify(response));
-            res.end("thank-you for your message");
+            res.end("Thank You! Your Message Was Successfully Sent.");
         }
     });
 })
